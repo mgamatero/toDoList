@@ -1,0 +1,85 @@
+body{
+    font-family: 'Patua One', cursive;
+    background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#top_section{
+    
+    color: rgb(207, 235, 171);
+    background-color: rgb(49, 47, 47);
+    border: solid 2px rgb(177, 171, 171);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding:2rem;
+    margin-top:2rem;
+    text-transform:uppercase;
+    font-weight: normal;
+}
+
+.main{
+    font-family: 'Patua One', cursive;
+    width:75%;
+    margin: 2% auto;
+    border: solid 2px gray;
+    background: #f7f7f7;
+    box-shadow:0 0 5px gray;
+    color:rgb(19, 14, 14);
+}
+
+#add{
+    font-size:2rem;
+    font-weight:none;
+    margin: 1 rem;
+    
+}
+input{
+    margin: 5 rem auto;
+    font-size: 2rem;
+    width:80%;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgb(0, 255, 179);
+    box-sizing: border-box;
+    color:rgb(29, 78, 54);
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    background: white;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+li:nth-child(2n){
+    background-color: #d3e2c1f1;
+}
+
+.completed{
+    text-decoration: line-through;
+    color:gray;
+}
+
+#add{
+    height:2rem;
+    margin: 0 1rem;
+    width:0rem;
+    color: red;
+}
+
+.delete {
+    height:2rem;
+    margin: 0 1rem;
+    width:0;
+    color: red;
+}
+
+
+li:hover span {
+    width:1rem;
+}
