@@ -6,4 +6,4 @@ Simple To Do list where one can add items.
 - HTML, jQuery, CSS
 - Deployed link: https:www.github.io/mgamatero/toDoList
 
-![toDoList](https://github.com/mgamatero/TrainTime/blob/master/assets/images/todolist.PNG "ToDoList App")
+![toDoList](https://github.com/mgamatero/toDoList/blob/master/assets/images/todolist.PNG "ToDoList App")
